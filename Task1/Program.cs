@@ -1,14 +1,14 @@
-﻿Console.Write("Введите первое число: ");
+﻿Console.Clear();
+Console.Write("Введите первое число A: ");
 int number1 = int.Parse(Console.ReadLine());
-Console.Write("Введите второе число: ");
+Console.Write("Введите второе число B: ");
 int number2 = int.Parse(Console.ReadLine());
-int sqr2 = number2*number2;
 
-if (number1 == sqr2)
+if (number1 == number2*number2)
 {
-    Console.Write("Да");
+    Console.Write("А является квадратом В");
 }
 else 
 {
-    Console.Write("Нет");
+    Console.Write("А не является квадратом В");
 }
