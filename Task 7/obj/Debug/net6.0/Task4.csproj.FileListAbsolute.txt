@@ -1,0 +1,15 @@
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\bin\Debug\net6.0\Task4.exe
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\bin\Debug\net6.0\Task4.deps.json
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\bin\Debug\net6.0\Task4.runtimeconfig.json
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\bin\Debug\net6.0\Task4.dll
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\bin\Debug\net6.0\Task4.pdb
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.csproj.AssemblyReference.cache
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.GeneratedMSBuildEditorConfig.editorconfig
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.AssemblyInfoInputs.cache
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.AssemblyInfo.cs
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.csproj.CoreCompileInputs.cache
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.dll
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\refint\Task4.dll
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.pdb
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\Task4.genruntimeconfig.cache
+D:\SkillShare\html learning\GeekBrains\C#\GBTasks\Task4\obj\Debug\net6.0\ref\Task4.dll
