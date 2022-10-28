@@ -1,36 +1,16 @@
-﻿Console.Clear();
-Console.WriteLine("Введите номер дня недели ");
-int DayNumber = int.Parse(Console.ReadLine());
+﻿using System;
 
-if (DayNumber == 1)
+Console.Clear();
+Console.WriteLine("Введите а: ");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите b: ");
+int b = int.Parse(Console.ReadLine());
+
+if (a > b) 
 {
-    Console.Write("Понедельник");
+    Console.WriteLine($"-->max = {a}");
 }
-if (DayNumber == 2)
+if (a < b) 
 {
-    Console.Write("Вторник");
-}
-if (DayNumber == 3)
-{
-    Console.Write("Среда");
-}
-if (DayNumber == 4)
-{
-    Console.Write("Четверг");
-}
-if (DayNumber == 5)
-{
-    Console.Write("Пятница");
-}
-if (DayNumber == 6)
-{
-    Console.Write("Суббота");
-}
-if (DayNumber == 7)
-{
-    Console.Write("Воскресенье");
-}
-if (DayNumber>7||DayNumber==0)
-{
-    Console.Write("Введен неверный номер");
-}
+    Console.WriteLine($"-->max = {b}");
+}  
