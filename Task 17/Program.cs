@@ -8,17 +8,17 @@ Write("Введите координату y: ");
 int y = int.Parse(Console.ReadLine()); 
 if(x>0&&y>0) 
 {
-    Console.Write("1 четверть");
+    Write("1 четверть");
 }
 if(x>0&&y<0) 
 {
-    Console.Write("4 четверть");
+    Write("4 четверть");
 }
 if(x<0&&y>0) 
 {
-    Console.Write("2 четверть");
+    Write("2 четверть");
 }
 if(x<0&&y<0) 
 {
-    Console.Write("3 четверть");
+    Write("3 четверть");
 }

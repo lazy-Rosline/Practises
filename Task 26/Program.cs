@@ -19,10 +19,10 @@ int GetNumbers (int Initial)
 }
 //МОЕ решение:
 // int i=10;
-// int result=1;
+// int count=1;
 // while (N>i)
 // {
 //     i*=10;
-//     result++;
+//     count++;
 // }
-// Write(result);
+// Write(count);
