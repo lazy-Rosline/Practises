@@ -6,7 +6,7 @@ Write("Введите число: ");
 int N=int.Parse(Console.ReadLine());
 int NumberAmount=GetNumbers(N);
 WriteLine($"кол-во цифр равно {NumberAmount}");
-
+//OR - Write(GetNumbers(int.Parse(Console.ReadLine())));
 int GetNumbers (int Initial)
 {
     int count=0;

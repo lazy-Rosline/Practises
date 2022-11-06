@@ -14,11 +14,19 @@ switch(dayNumber)
         Write("выходной");
         break;
     }
-    default:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
     {
         Write("не выходной");
         break;
     }
 
-
+    default:
+    {
+        Write("нет такого дня недели");
+        break;
+    }
 }
