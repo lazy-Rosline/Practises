@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+using System;
 using static System.Console;
 
 Clear();

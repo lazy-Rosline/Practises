@@ -1,4 +1,5 @@
-﻿using System;
+﻿// ищет произведение пар чисел в одномерном массиве
+using System;
 using static System.Console;
 Clear();
 
