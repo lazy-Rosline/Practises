@@ -4,6 +4,7 @@ using static System.Console;
 
 Clear();
 Write("Введите число: ");
+Write(SumOfFigures(int.Parse(ReadLine())));
 
 int SumOfFigures(int SetN)
 {
@@ -15,5 +16,3 @@ int SumOfFigures(int SetN)
     }
     return count;
 }
-
-Write(SumOfFigures(int.Parse(Console.ReadLine())));
