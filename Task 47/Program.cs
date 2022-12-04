@@ -1,4 +1,4 @@
-﻿//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+﻿//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами от -10,0 до 10,0..
 using System;
 using static System.Console;
 
@@ -11,7 +11,7 @@ double[,] GetArray (int row, int column)
     {
         for(int j=0; j<column;j++)
         {
-            newArray[i, j]=new Random().Next(-10, 100);
+            newArray[i, j]= Math.Round((new Random().Next(-10, 11)+ new Random().NextDouble()), 1);
         }
     }
     return newArray;
