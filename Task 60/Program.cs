@@ -4,7 +4,7 @@ using System;
 
 Console.Clear();
 
-void Get3xArray (int par1, int par2, int par3)
+void GetArrayMyVariant (int par1, int par2, int par3)
 {
     int[,,] array = new int[par1, par2, par3];
     for (int i = 0; i < par1; i++)
@@ -22,6 +22,25 @@ void Get3xArray (int par1, int par2, int par3)
     }
 }
 
-Get3xArray(3,3,3);
+//не поняла вывод в условии задачи, т.к. в моем воображении трехмерный это кубик, и ПОСТРОЧНО я бы выводила по 4 элемента
+// ниже в методе "подогнала" вывод под указанный в примере
 
-//(не согласна с выводом приведенным в условии задачи, по-моему, даже двухмерный массив - значит кубик, по 4элемента в строке)
+void FillArray (int par1, int par2, int par3)
+{
+    int[,,] result = new int[par1, par2, par3];
+    for (int k = 0; k < par3; k++)
+    {
+        for (int i = 0; i < par1; i++)
+        {
+            for (int j = 0; j < par2; j++)
+            {
+                result[i, j, k] = new Random().Next(10, 100);
+                Console.Write($"{result[i, j, k]}({i}, {j}, {k}) ");
+            }
+            Console.WriteLine();
+        } 
+    }
+}
+GetArrayMyVariant(2,2,2);
+Console.WriteLine();
+FillArray(2,2,2);
